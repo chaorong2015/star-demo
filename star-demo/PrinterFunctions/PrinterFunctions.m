@@ -216,14 +216,6 @@
                           nil];
 //    NSLog(@"test====: %@", test);
     [posPrinters addObject:test];
-    //创建多个字典
-    NSDictionary *test1 = [NSDictionary dictionaryWithObjectsAndKeys:
-                          @"portName", @"portName",
-                          @"macAddress", @"macAddress",
-                          @"modelName", @"modelName",
-                          nil];
-    //    NSLog(@"test====: %@", test);
-    [posPrinters addObject:test1];
 //    NSLog(@"posPrinters====: %@", posPrinters);
     for (PortInfo *port in devices) {
         [posPrinters addObject:port];

@@ -22,6 +22,10 @@
 		9B0CD4BB1EB10B7D0012CEB3 /* StarIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0CD4B81EB10B7D0012CEB3 /* StarIO.framework */; };
 		9B0CD4BD1EB10E9D0012CEB3 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0CD4BC1EB10E9D0012CEB3 /* CoreBluetooth.framework */; };
 		9B0CD4BF1EB10EB80012CEB3 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0CD4BE1EB10EB80012CEB3 /* ExternalAccessory.framework */; };
+		9B0CD4EE1EB1ADCB0012CEB3 /* SMCloudServicesResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B0CD4ED1EB1ADCB0012CEB3 /* SMCloudServicesResources.bundle */; };
+		9B0CD4F01EB1AEB50012CEB3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0CD4EF1EB1AEB50012CEB3 /* QuartzCore.framework */; };
+		9B0CD4F21EB1AED30012CEB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0CD4F11EB1AED30012CEB3 /* Foundation.framework */; };
+		9B0CD4F41EB1AEE00012CEB3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B0CD4F31EB1AEE00012CEB3 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +64,10 @@
 		9B0CD4B81EB10B7D0012CEB3 /* StarIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = StarIO.framework; sourceTree = "<group>"; };
 		9B0CD4BC1EB10E9D0012CEB3 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		9B0CD4BE1EB10EB80012CEB3 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		9B0CD4ED1EB1ADCB0012CEB3 /* SMCloudServicesResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SMCloudServicesResources.bundle; sourceTree = "<group>"; };
+		9B0CD4EF1EB1AEB50012CEB3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9B0CD4F11EB1AED30012CEB3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9B0CD4F31EB1AEE00012CEB3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0CD4F41EB1AEE00012CEB3 /* UIKit.framework in Frameworks */,
+				9B0CD4F21EB1AED30012CEB3 /* Foundation.framework in Frameworks */,
+				9B0CD4F01EB1AEB50012CEB3 /* QuartzCore.framework in Frameworks */,
 				9B0CD4BF1EB10EB80012CEB3 /* ExternalAccessory.framework in Frameworks */,
 				9B0CD4BD1EB10E9D0012CEB3 /* CoreBluetooth.framework in Frameworks */,
 				9B0CD4B91EB10B7D0012CEB3 /* SMCloudServices.framework in Frameworks */,
@@ -88,6 +99,7 @@
 		9B0CD4721EB109F10012CEB3 = {
 			isa = PBXGroup;
 			children = (
+				9B0CD4ED1EB1ADCB0012CEB3 /* SMCloudServicesResources.bundle */,
 				9B0CD47D1EB109F10012CEB3 /* star-demo */,
 				9B0CD4971EB109F10012CEB3 /* star-demoTests */,
 				9B0CD47C1EB109F10012CEB3 /* Products */,
@@ -155,6 +167,9 @@
 		9B0CD4B51EB10B7D0012CEB3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9B0CD4F31EB1AEE00012CEB3 /* UIKit.framework */,
+				9B0CD4F11EB1AED30012CEB3 /* Foundation.framework */,
+				9B0CD4EF1EB1AEB50012CEB3 /* QuartzCore.framework */,
 				9B0CD4BE1EB10EB80012CEB3 /* ExternalAccessory.framework */,
 				9B0CD4BC1EB10E9D0012CEB3 /* CoreBluetooth.framework */,
 				9B0CD4B61EB10B7D0012CEB3 /* SMCloudServices.framework */,
@@ -246,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B0CD4EE1EB1ADCB0012CEB3 /* SMCloudServicesResources.bundle in Resources */,
 				9B0CD48E1EB109F10012CEB3 /* LaunchScreen.storyboard in Resources */,
 				9B0CD48B1EB109F10012CEB3 /* Assets.xcassets in Resources */,
 				9B0CD4891EB109F10012CEB3 /* Main.storyboard in Resources */,
@@ -490,6 +506,7 @@
 				9B0CD49F1EB109F10012CEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B0CD4A01EB109F10012CEB3 /* Build configuration list for PBXNativeTarget "star-demoTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +515,7 @@
 				9B0CD4A21EB109F10012CEB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
